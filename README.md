@@ -6,7 +6,9 @@ Dad's house-search website. It is one standalone HTML file (dark mode, no build 
 - Live link: https://p7b7volmgd8iuf0y48ywum9o.deed.page/ (unlisted, set to noindex)
 - Laptop copy: C:\Users\david\HouseHunt\HouseHunt.html
 - Every version is also saved in Dropbox as a new numbered file, e.g. /HouseHunt_v16_2026-10-24.html. Never overwrite an older version.
-- Coming next: the code will move to a GitHub repo hosted on GitHub Pages, so ChatGPT/Codex and Grok Bot can both edit it. The repo link will be added here once it exists.
+- GitHub repo (source of truth, ChatGPT/Codex and Grok Bot can both edit): https://github.com/jwdavidho/house-hunt
+- GitHub Pages site (auto-updates on every push to main): https://jwdavidho.github.io/house-hunt/
+- Repo layout: index.html = the live page; versions/ = every numbered version (never overwrite); robots.txt blocks search engines.
 
 ## What Dad is looking for
 - A single-story (one-floor) house at or under $1M.
@@ -44,4 +46,4 @@ Dad's house-search website. It is one standalone HTML file (dark mode, no build 
 - The About section should match the real listing count (107).
 
 ## How to hand work back
-If ChatGPT writes a new version, give the full HTML file named HouseHunt_vN_YYYY-MM-DD.html (or push it to the GitHub repo once it exists). Grok Bot / the House Hunt bot will test it and then publish it to the live link, the laptop and Dropbox.
+If ChatGPT writes a new version, give the full HTML file named HouseHunt_vN_YYYY-MM-DD.html (or commit it to the GitHub repo: put it in versions/ AND copy it over index.html on a branch, then open a pull request). Grok Bot / the House Hunt bot will test it and then publish it to the live link, the laptop and Dropbox.
